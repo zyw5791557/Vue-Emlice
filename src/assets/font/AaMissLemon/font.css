@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'AaMissLemon';
+  src: url('AaMissLemon.eot');
+  src: url('AaMissLemon.woff2') format('woff2'),
+       url('AaMissLemon.woff') format('woff'),
+       url('AaMissLemon.ttf') format('truetype'),
+       url('AaMissLemon.svg#AaMissLemon') format('svg'),
+       url('AaMissLemon.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

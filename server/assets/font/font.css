@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'AaMissLemon';
+  src: url('AaMissLemon.woff') format('woff'),
+       url('AaMissLemon.ttf') format('truetype'),
+       url('AaMissLemon.svg#AaMissLemon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
