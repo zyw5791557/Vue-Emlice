@@ -71,6 +71,10 @@ export default {
                         }
                     }
                     var li = lyric.getElementsByTagName('li')[lrc.index];
+                    if(li === undefined) {
+                        _this.loadData();
+                        return;
+                    }
                     li.className = 'on';
                     var top = Math.min(0, -lrc.top);
                     lyric.style.transform = `translate(0,${-lrc.top}px)`
