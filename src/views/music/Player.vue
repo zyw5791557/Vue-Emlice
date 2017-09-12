@@ -89,7 +89,7 @@ export default {
             // audio 播放器
             this.$axios.get(Musicurl).then(res => {
                 if(res.data.data[0].url) {
-                    this.audioURL = res.data.data[0].url;
+                    this.audioURL = res.data.data[0].url.replace('http', 'https');
                 }
             }).catch(err => {
                 console.log(err);
